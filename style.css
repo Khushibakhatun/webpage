@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg);
+    background-position: center;
+    background-size:cover ;
+    height: 110vh;
+    position: fixed;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+
+.logo img{
+width: 60px;
+float: left;
+cursor: pointer;
+border-radius: 100%;
+background: transparent;
+background: white;
+border-radius: 50%;
+margin-top: 30px;
+margin-left: 30px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: -15%;
+}
+ ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 5%;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-shadow: 0 0 10px #fff;
+}
+ul li a:hover{
+    text-decoration: none;
+   
+    color: #fbfdfe;
+    text-shadow: 0 0 10px #35b5fa,
+                 0 0 10px #35b5fa,
+                 0 0 10px #35b5fa;
+    font-weight: 600;
+    transition: .5s ease-out;
+   
+}
+.search{
+    width: 330px;
+    float: left;
+   
+
+}
+.srch{
+    font-family: 'Times News Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid aqua;
+    margin-top: 13px;
+    color: #fbfdfe;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    margin-left: 260%;
+    margin-top: -40%;
+    border-radius: 10px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background:aqua;
+    border: 2px solid aqua;
+    color: #070707;
+    font-size:15px;
+    margin-left: 82.1%;
+    margin-top: -10.3%;
+    position: absolute;
+    border-radius: 10px;
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+width: 1200px;
+height: auto;
+margin: auto;
+color: rgb(246, 247, 247);
+position: relative;
+margin-top: 30px;
+
+}
+.content h1{
+    margin-top: 200px;
+    font-size: 50px;
+   
+}
+.content h1 span{
+    text-shadow: 0 0 10px #8fdafd;
+}
+.content .par{
+    padding-left: 8px;
+    padding-bottom: 15px;
+    font-family: Arial;
+    letter-spacing: 1.4px;
+    line-height: 25px;
+    color: #b6b8b8;
+}
+ .cn{
+    width: 160px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    /* margin-bottom: 50px; */
+     margin-left: 130px; 
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top:15px;
+}
+.cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+button.cn:hover{
+   background: #35b5fa;
+    transition: .5s ease-out;
+}
+.content span{
+    color: aqua;
+    font-size: 50px;
+}
+
+.form{
+    width: 250px;
+    height: 440px;
+    background: rgba(255, 255,255, 0.2);
+    border: 1px solid rgba(255,255,255, 0.3);
+    position: absolute;
+    top: -160px;
+    left: 870px;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 20px aqua ;
+    backdrop-filter: blur(5px);
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: aqua;
+    font-size: 22px;
+    background-color: #fbfdfe;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 22px;
+    background: transparent;
+    border-bottom: 1px solid aqua;
+    border-left:none ;
+    border-top: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: aqua;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aqua;
+     transition: .5s ease ;
+     
+}
+.btnn:hover{
+    background: #35b5fa;
+    color: #fff;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: aqua;
+
+}
+.liw{
+    padding-top: -15px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+  
+   
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition:  0.5s ease;
+
+}
+.icons ion-icon:hover{
+   color: aqua;
+}
+
+.icons a ion-icon:hover{
+    transform: translate(0,-10px);
+    
+}
+.content h2{
+    font-size: 25px;
+   margin-top: -12px;
+}
+.par span{
+    color: rgb(250, 246, 247);
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+ .forgot-password a{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    line-height: 25px;
+    
+}
+.forgot-password a{
+    color: #fff;
+    text-decoration: none;
+}
+.forgot-password a:hover{
+    text-decoration: underline;
+}
+
+
+.btn:hover{
+    background: #35b5fa;
+}
+
+
+   .copy-right{
+    color: #d6d1d1;
+    margin-top:468px;
+    margin-left: 45px;
+   } 
+
